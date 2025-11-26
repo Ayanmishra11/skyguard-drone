@@ -1,0 +1,30 @@
+﻿# Python env and caches
+venv/
+__pycache__/
+*.pyc
+
+# compiled/native extensions & libs
+*.pyd
+*.dll
+*.so
+
+# models and DBs
+*.pt
+*.pth
+*.db
+*.sqlite
+*.ckpt
+yolov8n.*
+
+# archives / builds
+*.zip
+*.tar.gz
+*.egg-info/
+dist/
+build/
+
+# local env
+.env
+
+# local backup folders
+.git_backup/
